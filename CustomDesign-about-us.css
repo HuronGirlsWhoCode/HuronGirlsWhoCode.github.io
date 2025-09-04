@@ -18,3 +18,11 @@ td p {
   width: 85%;
   margin: auto;
 }
+
+.name-text {
+  font-weight: bold;
+}
+
+.board-position-text {
+  color: #7A7A78;
+}
