@@ -13,3 +13,8 @@ table {
 td {
   padding: 15px;
 }
+
+td p {
+  width: 85%;
+  margin: auto;
+}
