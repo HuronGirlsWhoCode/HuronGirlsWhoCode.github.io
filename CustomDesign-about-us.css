@@ -63,11 +63,13 @@ td p {
 }
 
 .activity-tile {
+  border: 1px solid #ddd;
+  border-radius: 10px;
   padding: 15px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto auto;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 
