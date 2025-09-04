@@ -27,3 +27,7 @@ td p {
 .board-position-text {
   color: #7A7A78;
 }
+
+.bio-text {
+  line-height: 125%;
+}
