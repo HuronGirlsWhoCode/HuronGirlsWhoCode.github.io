@@ -41,8 +41,8 @@ td p {
 }
 
 .activity-tile {
-  /* border: 1px solid #ddd; */
-  /* border-radius: 10px; */
+  border: 1px solid #7A7A78;
+  border-radius: 10px; 
   padding: 15px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -74,14 +74,23 @@ td p {
   text-align: left;
 }
 
+@media (min-width: 801px) {
+  .activities-tiles {
+    width: 80%;
+    margin: auto;
+  }
+}
+
 @media (max-width: 800px) {
   .activities-tiles {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
 
 @media (max-width: 500px) {
   .activities-tiles {
     grid-template-columns: 1fr;
+    width: 100%; 
   }
 }
