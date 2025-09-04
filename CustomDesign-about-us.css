@@ -1,7 +1,5 @@
-#paavani-photo {
+.board-photo {
   border-radius: 50%;
-}
-
-#bhaavna-photo {
-  border-radius: 50%;
+  height: 450px;
+  width: auto;
 }
