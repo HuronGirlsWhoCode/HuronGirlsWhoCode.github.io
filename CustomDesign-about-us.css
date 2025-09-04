@@ -32,6 +32,29 @@ td p {
   line-height: 125%;
 }
 
+@media (max-width: 600px) {
+  table, tr, td {
+    display: block;     
+    width: 100%;
+  }
+
+  td {
+    margin-bottom: 20px;  
+    text-align: center;  
+  }
+
+  td p, .name-text, .board-position-text {
+    width: 90%;    
+    margin: 5px auto;   
+  }
+
+  .board-photo {
+    height: 250px;    
+    width: auto;
+    margin-bottom: 10px;  
+  }
+}
+
 .activities-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
