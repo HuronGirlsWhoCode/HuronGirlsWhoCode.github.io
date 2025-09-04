@@ -3,3 +3,12 @@
   height: 450px;
   width: auto;
 }
+
+table {
+  width: 80%;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+}
