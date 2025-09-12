@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="/OverallDesign.css">
-  <link rel="stylesheet" href="/CustomDesign-contact-us.css">
+  <link rel="stylesheet" href="/CustomDesign-index.css">
   <link rel="icon" href="/GWC-logo-light.png" type="image/png"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Huron Girls Who Code</title>
@@ -14,7 +14,7 @@
     <div>
       <img id="top-bar-left-logo" src="/GWC-logo-light.png" alt="Huron Girls Who Code Logo">
     </div>
-    <h1>Huron Girls Who Code</h1>
+    <h1 id="top-bar-title-text">Huron Girls Who Code</h1>
     <div>
       <img id="top-bar-right-logo" src="/GWC-official-logo-white.png" alt="Girls Who Code Logo">
     </div>
@@ -22,7 +22,15 @@
   <div class="nav-bar">
     <a href="/index.html">Home</a>
     <a href="/about-us.html">About Us</a>
-    <a href="/contact-us.html">Contact</a>
+    <div class="meetings-dropdown">
+      <button class="meetings-dropdown-button" id="meetingsBtn">
+        Meetings <span class="meeting-dropdown-caret">▼</span>
+      </button>
+      <div class="meetings-dropdown-content" id="meetingsMenu">
+        <a href="/meetings-2025-2026.html">2025–2026</a>
+        <a href="/meetings-2024-2025.html">2024–2025</a>
+      </div>
+    </div>
     <a href="https://girlswhocode.com/">GWC</a>
   </div>
   
