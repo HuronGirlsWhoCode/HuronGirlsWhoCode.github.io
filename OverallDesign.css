@@ -60,6 +60,12 @@ a, p, h3, h2 {
   height: 45px;
 }
 
+#top-bar-title-text {
+  padding-left: 100px; 
+  padding-right: 100px;
+  word-break: break-word;
+}
+
 .nav-bar {
   background-color: #D7F9F4;
   height: auto;
@@ -76,6 +82,60 @@ a, p, h3, h2 {
 
 .nav-bar a:hover {
   background-color: #0D9C90;
+}
+
+.meetings-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.meetings-dropdown-button {
+  background: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 8px 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.meetings-dropdown-button:hover {
+  background-color: #0D9C90;
+  color: white;
+}
+
+.meeting-dropdown-caret {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.meeting-dropdown-caret.rotate {
+  transform: rotate(180deg);
+}
+
+.meetings-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D7F9F4;
+  width: 100%;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.meetings-dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.meetings-dropdown-content a:hover {
+  background-color: #0D9C90;
+  color: white;
 }
 
 .page-text {
