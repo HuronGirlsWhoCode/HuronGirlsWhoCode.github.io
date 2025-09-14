@@ -66,13 +66,13 @@
 }
 
 @media (min-width: 801px) {
-  .interest-form {
+  #interest-form {
     width: 80%;
   }
 }
 
 @media (max-width: 800px) {
-  .interest-form {
+  #interest-form {
     width: 100%;
   }
 }
