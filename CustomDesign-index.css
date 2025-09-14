@@ -1,3 +1,18 @@
+.inline-link-navigator a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  background-color: #D7F9F4; 
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.inline-link-navigator a:hover {
+  background-color: #0D9C90;
+  color: white;
+}
+
 .activities-tiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
