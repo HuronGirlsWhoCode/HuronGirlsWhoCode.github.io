@@ -61,14 +61,14 @@
 
 #interest-form-wrapper {
   width: 100%;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
 }
 
 #interest-form {
-  height: 700px;
+  height: 600px;
   border: none;
-  margin: 0 auto;
+  margin: auto;
 }
 
 @media (min-width: 801px) {
