@@ -1,5 +1,30 @@
-#slides-pdf {
-  height:1500px; 
-  width:100%;
-  margin:auto;
+.meeting-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #D7F9F4;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.meeting-caret {
+  font-size: 12px;
+  transition: transform 0.3s ease;
+}
+
+.meeting-caret.rotate {
+  transform: rotate(180deg);
+}
+
+.meeting-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.meeting-content.active {
+  max-height: 1000px;
+  margin: 10px 0 20px 0;
 }
