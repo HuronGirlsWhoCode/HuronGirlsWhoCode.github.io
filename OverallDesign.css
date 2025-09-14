@@ -82,6 +82,7 @@ a, p, h3, h2 {
 
 .nav-bar a:hover {
   background-color: #0D9C90;
+  color: white;
 }
 
 .meetings-dropdown {
