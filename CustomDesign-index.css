@@ -58,3 +58,10 @@
     width: 100%; 
   }
 }
+
+#interest-form {
+  width: 640px;
+  height: 1400px;
+  border: none;
+  margin: 0;
+}
